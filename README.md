@@ -69,3 +69,16 @@ To ensure clean data ingestion for the ML model, the front-end must adhere to th
     }
   ]
 }
+```
+
+### 📊 Defined Data Service Level Agreements (SLAs)
+
+To ensure a seamless user experience and reliable experimentation, the engineering and data teams are held to the following SLAs for the Smart Bundle Engine:
+
+| SLA Metric | Definition | Target Threshold | Breach Protocol |
+| :--- | :--- | :--- | :--- |
+| **API Latency** | Time taken for the ML algorithm to return bundle recommendations to the front-end. | < 200 milliseconds | **Critical.** UI lag causes cart abandonment. Front-end automatically falls back to standard UI. |
+| **Completeness** | Percentage of checkout events successfully logging the `is_bundle` boolean flag. | 99.9% | **High.** Corrupts A/B test tracking. Automated Slack alert triggered to Data Engineering on-call. |
+| **Freshness** | Maximum delay between a seller listing a new item and it being available in the recommendation pool. | < 5 minutes | **Medium.** Recommendation pool is slightly stale. Monitored during weekly sprint review. |
+| **Availability** | Overall uptime of the recommendation API service during peak traffic hours. | 99.95% | **Critical.** Automated failover to the Phase 1 "Cold Start" content-based filtering model. |
+
