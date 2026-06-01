@@ -105,5 +105,5 @@ with col_pm:
         st.rerun
     
     for log in st.session_state.telemetry_logs:
-        with st.expander(f'Event: {log['event_name']}', expanded=True):
+        with st.expander(f'Event: {log["event_name"]}', expanded=True):
             st.json(log)
