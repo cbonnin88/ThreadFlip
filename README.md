@@ -33,7 +33,7 @@ This project is broken down into 6 distinct Data PM phases. You can navigate thr
 * **What it is:** A Google Colab notebook simulating a 10,000-user A/B test for the new Smart Bundle UI, evaluated using Polars for aggregation and Chi-Square testing for statistical significance.
 * **PM Skill Demonstrated:** Experimentation design, defining minimum detectable effects, and translating $p$-values into actionable product launch decisions.
 
-### [Phase 4: Live ROI & Feature Validation Dashboard](https://cbonnin88-threadflip-streamlit-app-packgo.streamlit.app/)
+### [Phase 4: Live ROI & Feature Validation Dashboard](https://threadflip-j5gxcyxmg2uxnd2xad8dag.streamlit.app/)
 * **What it is:** A deployed Streamlit application featuring live unit economics modeling (ARPU & CLV), qualitative user feedback analysis via Word Clouds, and automated PDF strategy generation.
 * **PM Skill Demonstrated:** Connecting technical features directly to top-line revenue impact, and building self-serve tooling for business stakeholders. *(Source code available in `app.py`)*.
 
