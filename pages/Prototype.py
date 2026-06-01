@@ -56,20 +56,20 @@ with col_app:
              'recommendation_shown':['p_8832','p_9102']
              })
 
-        c1, co2 = st.columns(2)
+        c1, c2 = st.columns(2)
         with c1:
-            st.image('https://images.unsplash.com/photo-1596755094514-f87e32f85e98?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'
-            st.write(**Retro Graphic Tee**)
+            st.image('https://images.unsplash.com/photo-1596755094514-f87e32f85e98?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80')
+            st.write('**Retro Graphic Tee**')
             st.write('€18,00')
-            if st.button('Add to Bundle', kye='bundle_1'):
+            if st.button('Add to Bundle', key='bundle_1'):
                 st.session_state.cart.append(18.00)
                 log_event('bundle_item_added',{'product_id':'p_8832','is_bundle':True,'price':18.00})
                 st.success('Bundle activated!')
 
         with c2:
-        st.image('https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80')
-        st.write('**Nike Hoodie -Y2K**')
-        st.write('€32,00')
+            st.image('https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80')
+            st.write('**Nike Hoodie -Y2K**')
+            st.write('€32,00')
         if st.button('Add to Bundle', key='bundle_2'):
             st.session_state.cart.append(32.00)
             log_event('bundle_item_added',{'product_id':'p_9102','is_bundle':True,'price':32.00})
