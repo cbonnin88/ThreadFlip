@@ -3,7 +3,7 @@ import json
 import time
 import datetime
 
-st.set_page_config(page_title='ThreadFlip Prototype',layout='wide')
+st.set_page_config(page_title='ThreadFlip Data PM',layout='wide')
 
 # Initialize session state for cart and telemetry
 if 'cart'not in st.session_state:
