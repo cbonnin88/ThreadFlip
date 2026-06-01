@@ -34,7 +34,7 @@ with col_app:
         st.image('https://images.unsplash.com/photo-1576995853123-5a10305d93c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', use_column_width=True)
         st.header('Vintage Levi\'s Denim Jacket - 90s')
         st.subheader('€45,00')
-        st.write('Seller: --@vingtage_vault** | ⭐ 4.9 (120 sales)')
+        st.write('Seller: **@vingtage_vault** | ⭐ 4.9 (120 sales)')
         st.write('Size: Large | Condition: Great | Shipping: €5,99')
 
         if st.button('🛒 Add to Cart',key='main_add'):
