@@ -68,7 +68,7 @@ with col_app:
 
         with c2:
             st.image('https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80')
-            st.write('**Nike Hoodie -Y2K**')
+            st.write('**Nike Hoodie-Y2K**')
             st.write('€32,00')
         if st.button('Add to Bundle', key='bundle_2'):
             st.session_state.cart.append(32.00)
