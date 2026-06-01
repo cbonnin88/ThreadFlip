@@ -2,8 +2,8 @@
 
 Welcome to my Data Product Management portfolio. This repository contains a comprehensive, end-to-end product strategy and technical implementation for **ThreadFlip**, a simulated C2C fashion marketplace (modeled after apps like Vinted and Depop). 
 
-**The Product Challenge:** Marketplace liquidity was stagnating due to high cart abandonment caused by individual shipping fees. 
-**The Solution:** A "Smart Bundle & Liquidity" Machine Learning Engine that dynamically incentivizes multi-item purchases from the same seller.
+- **The Product Challenge:** Marketplace liquidity was stagnating due to high cart abandonment caused by individual shipping fees. 
+- **The Solution:** A "Smart Bundle & Liquidity" Machine Learning Engine that dynamically incentivizes multi-item purchases from the same seller.
 
 This project demonstrates my ability to bridge the gap between business strategy, data engineering, and user experience.
 
