@@ -82,3 +82,8 @@ To ensure a seamless user experience and reliable experimentation, the engineeri
 | **Freshness** | Maximum delay between a seller listing a new item and it being available in the recommendation pool. | < 5 minutes | **Medium.** Recommendation pool is slightly stale. Monitored during weekly sprint review. |
 | **Availability** | Overall uptime of the recommendation API service during peak traffic hours. | 99.95% | **Critical.** Automated failover to the Phase 1 "Cold Start" content-based filtering model. |
 
+
+
+<img width="1576" height="609" alt="Capture d’écran 2026-06-03 à 17 37 28" src="https://github.com/user-attachments/assets/89d87129-c29b-4439-afd0-044b0e04c243" />
+
+
